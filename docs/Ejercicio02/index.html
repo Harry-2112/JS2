@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../Ejercicio01/index.html">Ejercicio1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../Ejercicio02/index.html">Ejercicio2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../Ejercicio03/index.html">Ejercicio3</a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    
+    <h1>Ejercicio 02</h1>
+    <p>La municipalidad de Pueblo Libre piensa invertir cierto monto de dinero en la reparación de las pistas en las avenidas principales. Desarrollar un pseudocódigo que permita ingresar un monto de inversión en soles y lo reparta en la refacción de cinco avenidas de la siguiente manera: </p>
+
+    <ol>
+        <li>Avenida La Mar - 35% del monto</li>
+        <li>Avenida Abancay - 25% del monto</li>
+        <li>Avenida 28 de Julio - 10% del monto</li>
+        <li>Avenida Aviación - 15% del monto</li>
+        <li> Avenida Tacna - restante del monto</li>
+    </ol>
+
+    <label>Ingresar monto total a invertir:</label><br><br>
+    <input type="text" id="monto" placeholder="Ingresar el monto"><br><br>
+    <button type="button" onclick="calcular()">Calcular</button>
+
+    <!-- Respuestas -->
+
+    <section id="respuestas">
+        
+    </section>
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
